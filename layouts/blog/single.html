@@ -1,9 +1,11 @@
 {{ define "main" }}
-<section class="section">
-    <div class="container has-text-centered">
-        <h1 class="title">{{ .Title }}</h1>
+<div class="blog-article">
+<section class="hero">
+    <div class="hero-body">    
         {{ $hero_image := index (.Params.images) 0 }}
-        <img src="{{ $hero_image }}" alt="" style="width: 30%;">
+        <div class="container has-text-centered" style="background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(/uploads/bgToronto2.jpg), url({{ $hero_image }}); background-size: cover; background-position: 50%; ">
+            <h1 class="title is-size-1">{{ .Title }}</h1>
+        </div>
     </div>
 </section>
 <section class="section">
@@ -22,4 +24,5 @@
         </div>
     </div>
 </section>
+</div>
 {{ end }}

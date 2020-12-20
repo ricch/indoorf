@@ -3,9 +3,9 @@
     <div class="container">
         <div class="content">
         {{ .Content }}
-        <div class="columns is-multiline grid">
+        <div class="grid">
             {{ range where site.RegularPages "Section" "blog" }}
-            <div class="column is-4 grid-item">
+            <div class="grid-item">
                 <div class="card">
                     <div class="card-image" style="position: relative;">
                         <a href="{{.Permalink}}"><img src="{{ index (.Params.images) 0  }}" alt="{{ .Title }}"></a>

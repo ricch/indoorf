@@ -5,8 +5,8 @@ var msnry = new Masonry( elem, {
     columnWidth: 200
 });
 
-// element argument can be a selector string
-//   for an individual element
-var msnry = new Masonry( '.grid', {
-// options
-});
+imagesLoaded( grid ).on( 'progress', function() {
+    // layout Masonry after each image loads
+    msnry.layout();
+  });
+  

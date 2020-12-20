@@ -1,0 +1,21 @@
+.card {
+    .card-date {
+        background-color: black;
+        color: #fff;
+        height: 60px;
+        width: 60px;
+        padding: 10px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 1.2;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translate(-50%, 20px);
+    }
+    .card-content {
+        .is-size-4 {
+            margin-top: .75rem;
+        }
+    }
+}

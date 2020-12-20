@@ -1,0 +1,11 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Indoor Friends"
+sectionPagesMenu = "main"
+summaryLength = 20
+pluralizelisttitles = false
+
+[params]
+    description = "Meta Description goes here."
+    images = ["meta-image.jpg"]
+    googleTagManagerID = "GTM-xxxxxx"

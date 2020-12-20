@@ -1,0 +1,30 @@
+{{ define "main" }}
+<section class="section">
+    <div class="container">
+        <h1 class="title">blog</h1>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <div class="columns is-multiline grid">
+            {{ range .Paginator.Pages.ByDate.Reverse }}
+            <div class="column is-4 grid-item">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="{{.Permalink}}"><img src="{{ index (.Params.images) 0  }}" alt="{{ .Title }}" loading="lazy"></a>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <p class="title is-4"><a href="{{.Permalink}}">{{ .Title }}</a></p>
+                            <p>{{ .PublishDate.Format "January 2, 2006" }}</p>
+                            <p>{{ .Summary }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+<script src="/js/scroll-reveal.js"></script>
+{{ end }}

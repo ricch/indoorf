@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="section">
+    <div class="container has-text-centered">
+        <h1 class="title">{{ .Title }}</h1>
+        {{ $hero_image := index (.Params.images) 0 }}
+        <img src="{{ $hero_image }}" alt="" style="width: 30%;">
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <div class="content">
+                    {{ .Content }}
+                </div>
+            </div>
+            <div class="column is-3 is-offset-1" style="background-color: #eee;">
+                <aside >
+                    Ads go here
+                </aside>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

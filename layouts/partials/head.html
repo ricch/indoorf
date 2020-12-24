@@ -13,7 +13,11 @@
 
 {{ if .Params.hidden }}<meta name="robots" content="noindex">{{ end }}
 {{ $style := resources.Get "scss/styles.scss" | toCSS | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+<link rel="canonical" href="{{ .Permalink }}">
+
+<link href="/indoor-friends.ico" rel="shortcut icon" type="image/x-icon">
+<meta name="theme-color" content="#40BFB7"/>
 
 <script src="/js/masonry.pkgd.min.js"></script>
 <script src="/js/imagesloaded.pkgd.min.js"></script>

@@ -2,7 +2,7 @@ baseURL = "https://indoorfriends.netlify.app/"
 languageCode = "en-us"
 title = "Indoor Friends"
 sectionPagesMenu = "main"
-summaryLength = 20
+summaryLength = 15
 pluralizelisttitles = false
 
 [params]

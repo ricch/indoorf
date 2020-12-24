@@ -9,13 +9,15 @@
                 <div class="card">
                     <div class="card-image" style="position: relative;">
                         <a href="{{.Permalink}}"><img src="{{ index (.Params.images) 0  }}" alt="{{ .Title }}"></a>
-                        <div  class="card-date"><span class="is-uppercase">{{ .PublishDate.Format "Jan" }}</span><Br><span class="has-text-weight-bold">{{ .PublishDate.Format "2" }}</span>
-                        </div>
                     </div>
                     <div class="card-content">
                         <div class="content">
+                            <div  class="card-date is-uppercase">
+                                {{ .PublishDate.Format "January 2, 2006" }}
+                            </div>
                             <h3 class="is-size-4"><a href="{{.Permalink}}">{{ .Title }}</a></h3>
                             <p>{{ .Summary }}</p>
+                            <a href="{{.Permalink}}" class="button">Read More →</a>
                         </div>
                     </div>
                 </div>

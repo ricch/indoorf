@@ -1,0 +1,11 @@
+$button-background-color: $teal;
+$button-text-color: $black;
+$button-border-color: transparent;
+$button-hover-border-color: transparent;
+$button-hover-color: white;
+
+.button {
+    &:hover {
+        background-color: darken($teal,15%);
+    }
+}

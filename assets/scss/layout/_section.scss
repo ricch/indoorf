@@ -1,0 +1,7 @@
+section.section {
+    &.is-small {
+        @media (min-width: 769px) {
+            padding: 6rem 1.5rem;
+        }
+    }
+}

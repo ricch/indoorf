@@ -25,11 +25,11 @@
         <div class="grid">
             {{ range where site.RegularPages "Section" "blog" }}
             <div class="grid-item">
-                
                 {{ partial "components/blog-card.html" . }}
             </div>
             {{ end }}
         </div>
     </div>
 </section>
+{{ partial "components/subscribe.html" . }}
 {{ end }}

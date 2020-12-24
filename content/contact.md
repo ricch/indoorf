@@ -1,9 +1,11 @@
 ---
 title: "Contact"
 date: 2020-12-24T13:19:26-05:00
-description: ""
+description: "We'd love to hear from you"
 ---
 
-# Contact
+# Contact Us
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## We'd love to hear from you
+
+Let’s face it. We’ve been stuck inside for months now due to the Pandemic. Our favorite plant conservatories and garden green homes have closed for the public and we can literally feel ourselves wilting along with our plant friends. 

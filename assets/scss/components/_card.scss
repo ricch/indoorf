@@ -1,7 +1,4 @@
 .card {
-    .card-date {
-        font-family: $family-serif;
-    }
     .card-content {
         h3 a {
             color: $black;
@@ -12,4 +9,8 @@
             margin-top: .75rem;
         }
     }
+}
+
+.blog-date {
+    font-family: $family-serif;
 }

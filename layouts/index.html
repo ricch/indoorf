@@ -1,26 +1,32 @@
 {{ define "main" }}
+<section class="hero is-primary">
+    <div class="hero-body">
+        <div class="container">
+            {{ range where (where site.RegularPages "Section" "blog" ) ".Params.featured_blog" "=" true | first 1 }}
+            <div class="columns is-vcentered">
+                <div class="column is-5">
+                    <img src="{{ index (.Params.images) 0  }}" alt="{{ .Title }}">
+                </div>
+                <div class="column">
+                    {{ $readspeed := div .WordCount 225 }}
+                    <div class="blog-date is-uppercase is-italic">{{ .PublishDate.Format "January 2, 2006" }} &nbsp;&ndash; <span class="ml-1 has-text-black">{{ add 1 $readspeed }} min read</span></div>
+                    <h2 class="is-size-1">{{ .Title }}</h2>
+                    <p>{{ .Summary }}</p>
+                    <a href="{{ .Permalink }}" class="button is-outlined is-inverted">Read More →</a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
 <section class="section">
     <div class="container">
         <div class="content">
-        {{ .Content }}
         <div class="grid">
             {{ range where site.RegularPages "Section" "blog" }}
             <div class="grid-item">
-                <div class="card">
-                    <div class="card-image" style="position: relative;">
-                        <a href="{{.Permalink}}"><img src="{{ index (.Params.images) 0  }}" alt="{{ .Title }}"></a>
-                    </div>
-                    <div class="card-content">
-                        <div class="content">{{ $readspeed := div .WordCount 225 }}
-                            <div class="card-date is-uppercase is-italic">
-                                {{ .PublishDate.Format "January 2, 2006" }} <span class="has-text-primary ml-2">{{ add 1 $readspeed }} min read</span>
-                            </div>
-                            <h3 class="is-size-4"><a href="{{.Permalink}}">{{ .Title }}</a></h3>
-                            <p>{{ .Summary }}</p>
-                            <a href="{{.Permalink}}" class="button">Read More →</a>
-                        </div>
-                    </div>
-                </div>
+                
+                {{ partial "components/blog-card.html" . }}
             </div>
             {{ end }}
         </div>

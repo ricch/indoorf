@@ -1,7 +1,15 @@
+$navbar-item-hover-background-color: transparent;
+$navbar-item-img-max-height: 2.5rem;
+// $navbar-height: 7rem;
+
 nav.navbar {
+    @media (min-width: 1024px) {
+        min-height: 7rem;
+    }
     a {
         font-family: $is-family-code;
         color: $black;
+        text-decoration: underline;
     }
     .navbar-end {
         a img {

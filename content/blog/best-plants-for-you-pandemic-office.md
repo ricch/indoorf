@@ -1,5 +1,5 @@
 ---
-title: "Friday Favourites"
+title: "Best Plants for Your Pandemic Office"
 date: 2020-07-03T16:28:10-05:00
 images:
 - "/uploads/02.png"

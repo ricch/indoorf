@@ -1,5 +1,5 @@
 <head>
-{{ hugo.Generator }}
+{{ .Hugo.Generator }}
 
 <title>{{ .Title }} | {{ .Site.Title }}</title>
 {{ if .Params.redirectURL }}<meta http-equiv="refresh" content="0; url='{{ .Params.redirectURL }}'"/>{{ end }}
@@ -19,9 +19,8 @@
 <link href="/indoor-friends.ico" rel="shortcut icon" type="image/x-icon">
 <meta name="theme-color" content="#40BFB7"/>
 
-<script src="/js/masonry.pkgd.min.js"></script>
-<script src="/js/imagesloaded.pkgd.min.js"></script>
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"> -->
+<!-- <script src="/js/masonry.pkgd.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script> -->
 
 <script src="https://unpkg.com/scrollreveal"></script>
 </head>

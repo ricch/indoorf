@@ -4,12 +4,15 @@
     margin-top: -.75rem;
     .grid-item { 
         padding: .75rem;
-        width: 33%;
+        width: 25%;
         @media (max-width: 1023px) {
             width: 50%;
         }
         @media (max-width: 768px) {
             width: 100%;
         }
+    }
+    .grid-item--width2 {
+        width: 50%;
     }
 }

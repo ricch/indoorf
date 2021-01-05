@@ -11,8 +11,8 @@
                     {{ $readspeed := div .WordCount 225 }}
                     <div class="blog-date is-italic">{{ .PublishDate.Format "January 2, 2006" }} &nbsp;&ndash; <span class="ml-1 has-text-black">{{ add 1 $readspeed }} min read</span></div>
                     <h2 class="is-size-1">{{ .Title }}</h2>
-                    <p>{{ .Summary }}</p>
-                    <a href="{{ .Permalink }}" class="button is-outlined is-inverted">Read More →</a>
+                    <p class="mb-5">{{ .Summary }}</p>
+                    <a href="{{ .Permalink }}" class="button is-outlined is-black">Read More →</a>
                 </div>
             </div>
             {{ end }}

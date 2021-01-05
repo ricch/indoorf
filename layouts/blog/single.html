@@ -1,10 +1,13 @@
 {{ define "main" }}
 <div class="blog-article">
 <section class="hero">
-    <div class="hero-body">    
-        {{ $hero_image := index (.Params.images) 0 }}
-        <div class="container has-text-centered" style="background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(/uploads/bgToronto2.jpg), url({{ $hero_image }}); background-size: cover; background-position: 50%; ">
+    <div class="hero-body">
+        <div class="container">
             <h1 class="title is-size-1">{{ .Title }}</h1>
+            {{ $hero_image := index (.Params.images) 0 }}
+            <p class="is-family-serif is-italic is-size-7 has-text-right">Updated {{ .PublishDate.Format "January 2, 2006" }}</p>
+            <img src="{{ $hero_image }}" alt="" class="mt-3">
+            <!-- <div class="container has-text-centered" style="background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(/uploads/bgToronto2.jpg), url({{ $hero_image }}); background-size: cover; background-position: 50%; "> -->
         </div>
     </div>
 </section>
@@ -16,11 +19,11 @@
                     {{ .Content }}
                 </div>
             </div>
-            <div class="column is-3 is-offset-1" style="background-color: #eee;">
+            <!-- <div class="column is-3 is-offset-1" style="background-color: #eee;">
                 <aside >
                     Ads go here
                 </aside>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>

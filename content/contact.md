@@ -8,4 +8,4 @@ description: "We'd love to hear from you"
 
 ## We'd love to hear from you
 
-Let’s face it. We’ve been stuck inside for months now due to the Pandemic. Our favorite plant conservatories and garden green homes have closed for the public and we can literally feel ourselves wilting along with our plant friends. 
+We want to hear from you! Is there anything that you’d like us to cover in our next blog post? .. How can we make our content more helpful for you and your indoor jungle.

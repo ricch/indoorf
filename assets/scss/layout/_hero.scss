@@ -4,10 +4,4 @@
             color: $black;
         }
     }
-    @media (min-width: 769px) {
-        margin-bottom: 125px;
-        img {
-            margin-bottom: -125px;
-        }
-    }
 }

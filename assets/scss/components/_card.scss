@@ -1,13 +1,14 @@
+$card-shadow: none;
+$card-radius: 0;
+
 .card {
-    .card-content {
-        h3 a {
-            color: $black;
-            font-family: $family-secondary;
-            font-size: 2rem;
-        }
-        .is-size-4 {
-            margin-top: .75rem;
-        }
+    h3 a {
+        color: $black;
+        font-family: $family-secondary;
+        font-size: 2rem;
+    }
+    .is-size-4 {
+        margin-top: .75rem;
     }
 }
 

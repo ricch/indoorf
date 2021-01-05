@@ -1,6 +1,6 @@
 <div class="card mb-5">
     <div class="content">{{ $readspeed := div .WordCount 225 }}
-        <a href="{{.Permalink}}"><img src="{{ index (.Params.images) 0  }}" alt="{{ .Title }}"></a>
+        <!-- <a href="{{.Permalink}}"><img src="{{ index (.Params.images) 0  }}" alt="{{ .Title }}"></a> -->
         <div class="blog-date is-italic is-size-7 mt-2">
             {{ .PublishDate.Format "January 2, 2006" }} <span class="has-text-primary ml-2">{{ add 1 $readspeed }} min read</span>
         </div>

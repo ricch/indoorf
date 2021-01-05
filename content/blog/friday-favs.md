@@ -1,6 +1,6 @@
 ---
 title: "Friday Favs"
-date: 2019-10-04T16:53:44-05:00
+date: 2020-06-04T16:53:44-05:00
 images:
 - "/uploads/07.jpeg"
 categories:

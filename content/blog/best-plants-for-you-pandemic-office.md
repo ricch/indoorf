@@ -1,6 +1,6 @@
 ---
 title: "Best Plants for Your Pandemic Office"
-date: 2020-07-03T16:28:10-05:00
+date: 2020-11-03T16:28:10-05:00
 images:
 - "/uploads/02.png"
 categories:

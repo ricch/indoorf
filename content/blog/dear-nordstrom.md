@@ -1,6 +1,6 @@
 ---
 title: "Dear Nordstrom, I love you."
-date: 2020-03-19T16:28:12-05:00
+date: 2020-08-19T16:28:12-05:00
 images:
 - "/uploads/03.jpg"
 categories:

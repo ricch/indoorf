@@ -1,6 +1,6 @@
 ---
 title: "6 Common Mistakes New Plant Owners Make"
-date: 2020-07-15T12:00:00-05:00
+date: 2020-12-15T12:00:00-05:00
 images:
 - "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80"
 categories:

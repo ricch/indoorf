@@ -1,6 +1,6 @@
 ---
 title: "Our Daily Routine"
-date: 2020-03-14T16:53:38-05:00
+date: 2020-07-14T16:53:38-05:00
 images:
 - "/uploads/05.jpeg"
 categories:

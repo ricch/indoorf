@@ -3,6 +3,8 @@ title: "Dear Nordstrom, I love you."
 date: 2020-03-19T16:28:12-05:00
 images:
 - "/uploads/03.jpg"
+categories:
+- Lifestyle
 ---
 
 It’s a good thing I have 5 kids and very little time to dink around on my computer, because my online shopping habit could become a real addiction while we’re on this lovely quarantine. 

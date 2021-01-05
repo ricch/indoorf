@@ -4,6 +4,8 @@ date: 2020-05-29T16:28:14-05:00
 images:
 - "/uploads/dracaena.jpg"
 featured_blog: true
+categories:
+- PlantTikTok
 ---
 
 FILE THIS UNDER: Things I always wanted to do and never thought I would do. 

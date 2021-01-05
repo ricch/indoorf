@@ -3,6 +3,8 @@ title: "Friday Favs"
 date: 2019-10-04T16:53:44-05:00
 images:
 - "/uploads/07.jpeg"
+categories:
+- Other
 ---
 
 It’s been a HOT minute since I’ve showed my face over here and I can finally say we are back in the routine of things. Fall has shown up WAY faster than expected, and I feel like we were literally still waiting for summer to show up when all of a sudden people are drinking PSLS and buying sweaters!? It’s like the twilight zone. 

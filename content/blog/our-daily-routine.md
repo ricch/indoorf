@@ -3,6 +3,8 @@ title: "Our Daily Routine"
 date: 2020-03-14T16:53:38-05:00
 images:
 - "/uploads/05.jpeg"
+categories:
+- Plant Life
 ---
 
 Well friends, we’re living in STRANGE times! But one of the things we always tell our kids is to focus on controlling what you can control. 

@@ -3,6 +3,8 @@ title: "Our new books for FALL"
 date: 2019-10-17T16:53:41-05:00
 images:
 - "/uploads/06.jpg"
+categories:
+- Lifestyle
 ---
 
 We made it to Friday which feels like it deserves a PARADE, this week especially. I’m not sure what is going on (maybe the fact that I have a small team of children), but MAN the weeks are feeling LONG and wild over here! Can it be “summer” forever, but with all the seasons??!

@@ -2,6 +2,9 @@ var elem = document.querySelector('.grid');
 var iso = new Isotope( elem, {
   // options
   itemSelector: '.grid-item',
+  masonry: {
+    horizontalOrder: true,
+  }
   layoutMode: 'fitRows'
 });
 

@@ -1,5 +1,5 @@
 ---
-date: 2021-01-11T05:00:00+00:00
+date: 2021-01-11T05:00:00.000+00:00
 tags: []
 title: Winter Care for Your Cactus Plant
 description: ''
@@ -8,6 +8,10 @@ images:
 categories:
 - Plant Care
 featured_blog: true
+referenced_image: true
+splash_photographer:
+  name: Mat Reding
+  url: matreding
 
 ---
 (Image by: Mat Reding – [https://unsplash.com/@matreding](https://unsplash.com/@matreding "https://unsplash.com/@matreding"))

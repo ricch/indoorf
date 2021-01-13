@@ -14,7 +14,6 @@ splash_photographer:
 featured_blog: false
 
 ---
-(Image by: Annie Spratt – [https://unsplash.com/@anniespratt](https://unsplash.com/@anniespratt "https://unsplash.com/@anniespratt"))
 
 I’m sure we’ve all seen them. Whether it’s on your Instagram feed, laid out in a park, or at a hipster coffee shop you frequent, they intrigue us with their vintage and rugged feel. No, we aren’t talking about hippies, but we are talking about a thing that hippies own- terracotta planters! Today we’ll talk about why you should join the hippies and by your own terracotta planter. There are many advantages (and a few disadvantages) associated with these pots that are both aesthetic and functional in use.
 

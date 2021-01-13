@@ -14,7 +14,6 @@ splash_photographer:
   url: matreding
 
 ---
-(Image by: Mat Reding – [https://unsplash.com/@matreding](https://unsplash.com/@matreding "https://unsplash.com/@matreding"))
 
 Succulents are known for their resilience, and they make great plant babies for beginner indoor gardeners. They survive (and even thrive!) through hardships, but some plants struggle to make it through the winter.
 

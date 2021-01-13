@@ -13,6 +13,7 @@
                 {{ end }}
             {{ end }}<span class="is-family-serif is-italic is-size-7">Updated {{ .PublishDate.Format "January 2, 2006" }}</span></p>
             <img src="{{ $hero_image }}" alt="" class="mt-3">
+            {{ if .Params.referenced_image }}<p class="is-italic is-size-7 mt-2">(Image by: <a href="{{ .Params.splash_photographer.url }}">{{ .Params.splash_photographer.name }}</a>)</p>{{ end }}
         </div>
     </div>
 </section>

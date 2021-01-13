@@ -14,7 +14,6 @@ splash_photographer:
 featured_blog: false
 
 ---
-(Image by: Stefen Tan – [https://unsplash.com/@stefentan](https://unsplash.com/@stefentan "https://unsplash.com/@stefentan"))
 
 As the season changes, we see a number of our plants struggling with humidity. A great way to give your plants some extra moisture in the air is by creating a simple pebble tray. These are easy and inexpensive to build. It ultimately comes down to a bunch of rocks sitting in a wet tray.
 

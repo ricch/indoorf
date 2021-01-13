@@ -3,7 +3,8 @@ date: 2021-01-13T00:51:30+00:00
 tags: []
 title: 6 Tools That Every Indoor Gardener Needs
 description: ''
-images: []
+images:
+- "/uploads/dracaena.jpg"
 categories:
 - Plant Care
 featured_blog: false

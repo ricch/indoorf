@@ -1,0 +1,17 @@
+$control-padding-vertical: 2rem;
+
+form {
+    input {
+        text-align: center;
+    }
+    button {
+        &.button {
+
+            padding-left: 3rem;
+            padding-right: 3rem;
+            &:hover {
+                transition: .3s all;
+            }
+        }
+    }
+}

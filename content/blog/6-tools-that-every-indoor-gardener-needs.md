@@ -4,7 +4,8 @@ tags: []
 title: 6 Tools That Every Indoor Gardener Needs
 description: ''
 images: []
-categories: []
+categories:
+- Plant Care
 featured_blog: false
 draft: true
 

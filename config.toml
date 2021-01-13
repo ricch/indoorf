@@ -1,9 +1,13 @@
 baseURL = "https://indoorfriends.netlify.app/"
 languageCode = "en-us"
+metaDataFormat = "yaml"
 title = "Indoor Friends"
 sectionPagesMenu = "main"
 summaryLength = 15
 pluralizelisttitles = false
+[taxonomies]
+    tag = "tags"
+    category = "categories"
 
 [params]
     description = "Meta Description goes here."

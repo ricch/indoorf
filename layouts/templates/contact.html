@@ -1,0 +1,56 @@
+{{ define "main" }}
+<section class="section">
+    <div class="container">
+        <div class="content">
+            <p class="has-text-primary mb-1">Contact Us</p>
+            <div class="columns">
+                <div class="column is-4">
+                    {{.Content}}
+                </div>
+                <div class="column">
+                    <form name="contact" netlify>
+                        <div class="columns">
+                            <div class="column">
+                                <div class="field">
+                                    <label for="firstname" class="label">First Name:</label>
+                                    <div class="control">
+                                        <input id="firstname" name="firstname" class="input" type="text" placeholder="Enter your first name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="field">
+                                    <label for="lastname" class="label">Last Name:</label>
+                                    <div class="control">
+                                        <input id="lastname" name="lastname" class="input" type="text" placeholder="Enter your last name">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="field">
+                            <label for="email" class="label">Your Email:</label>
+                            <div class="control">
+                                <input name="email" id="email" class="input" type="email" placeholder="Enter your email">
+                            </div>
+                        </div>
+                        
+                        <div class="field">
+                            <label for="comments" class="label">Your Message:</label>
+                            <div class="control">
+                                <textarea name="comments" class="textarea" placeholder="Enter your message"></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="field">
+                            <div class="control">
+                                <button class="button" type="submit">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

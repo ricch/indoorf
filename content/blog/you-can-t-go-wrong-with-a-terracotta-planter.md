@@ -1,5 +1,5 @@
 ---
-date: 2021-01-05T05:00:00+00:00
+date: 2021-01-05T05:00:00.000+00:00
 tags: []
 title: You Can’t go Wrong with a Terracotta Planter!
 description: ''
@@ -7,6 +7,11 @@ images:
 - "/uploads/annie-spratt-bewql7eEL0A-unsplash.jpg"
 categories:
 - Plant Care
+referenced_image: true
+splash_photographer:
+  name: Annie Spratt
+  url: anniespratt
+featured_blog: false
 
 ---
 (Image by: Annie Spratt – [https://unsplash.com/@anniespratt](https://unsplash.com/@anniespratt "https://unsplash.com/@anniespratt"))

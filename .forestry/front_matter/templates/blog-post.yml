@@ -52,6 +52,7 @@ fields:
   type: boolean
   label: Featured blog
 pages:
+- content/blog/6-best-indoor-plants-with-major-health-benefits.md
 - content/blog/6-common-mistakes-new-plant-owners-make.md
 - content/blog/6-tools-that-every-indoor-gardener-needs.md
 - content/blog/beginners-guide-to-watering-feeding.md

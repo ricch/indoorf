@@ -7,7 +7,6 @@ images:
 - "/uploads/annie-spratt-bewql7eEL0A-unsplash.jpg"
 categories:
 - Plant Care
-draft: true
 
 ---
 (Image by: Annie Spratt – [https://unsplash.com/@anniespratt](https://unsplash.com/@anniespratt "https://unsplash.com/@anniespratt"))

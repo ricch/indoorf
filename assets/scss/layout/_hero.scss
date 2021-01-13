@@ -4,4 +4,10 @@
             color: $black;
         }
     }
+
+    &.is-featured {
+        h2 {
+            line-height: 1.2;
+        }
+    }
 }

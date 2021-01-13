@@ -3,7 +3,8 @@ date: 2021-01-11T05:00:00+00:00
 tags: []
 title: Winter Care for Your Cactus Plant
 description: ''
-images: []
+images:
+- "/uploads/mat-reding-F0ehv4gqqwY-unsplash.jpg"
 categories:
 - Plant Care
 

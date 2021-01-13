@@ -1,12 +1,17 @@
 ---
 title: 6 Common Mistakes New Plant Owners Make
-date: 2021-01-12T05:00:00+00:00
+date: 2021-01-12T05:00:00.000+00:00
 images:
 - https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80
 categories:
 - Plant Life
 tags: []
 description: ''
+referenced_image: true
+splash_photographer:
+  name: Prudence Earl
+  url: pru
+featured_blog: false
 
 ---
 (Image by: Prudence Earl – [https://unsplash.com/@pru](https://unsplash.com/@pru "https://unsplash.com/@pru"))

@@ -7,6 +7,7 @@ images:
 - "/uploads/mat-reding-F0ehv4gqqwY-unsplash.jpg"
 categories:
 - Plant Care
+featured_blog: true
 
 ---
 (Image by: Mat Reding – [https://unsplash.com/@matreding](https://unsplash.com/@matreding "https://unsplash.com/@matreding"))

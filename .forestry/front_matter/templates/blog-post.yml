@@ -48,6 +48,9 @@ fields:
     - Other
     - TikTok
   label: Categories
+- name: featured_blog
+  type: boolean
+  label: Featured blog
 pages:
 - content/blog/6-common-mistakes-new-plant-owners-make.md
 - content/blog/beginners-guide-to-watering-feeding.md

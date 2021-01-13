@@ -30,10 +30,31 @@ fields:
   type: image_gallery
   config: {}
   label: Images
+- name: referenced_image
+  type: boolean
+  label: Referenced Image
 - name: tags
   type: tag_list
   default: []
   label: Tags
+- name: splash_photographer
+  type: field_group
+  config: {}
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+  label: Splash Photographer
+  showOnly:
+    field: referenced_image
+    value: true
 - name: categories
   type: list
   config:

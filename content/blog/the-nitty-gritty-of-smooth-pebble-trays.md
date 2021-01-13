@@ -1,5 +1,5 @@
 ---
-date: 2021-01-08T05:00:00+00:00
+date: 2021-01-08T05:00:00.000+00:00
 tags: []
 title: The Nitty-Gritty of Smooth Pebble Trays
 description: ''
@@ -7,6 +7,11 @@ images:
 - "/uploads/stefen-tan-Ah9FpZCsPXU-unsplash.jpg"
 categories:
 - Plant Care
+referenced_image: true
+splash_photographer:
+  name: Stefen Tan
+  url: stefentan
+featured_blog: false
 
 ---
 (Image by: Stefen Tan – [https://unsplash.com/@stefentan](https://unsplash.com/@stefentan "https://unsplash.com/@stefentan"))

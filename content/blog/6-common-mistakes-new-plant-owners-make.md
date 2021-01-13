@@ -7,6 +7,8 @@ categories:
 - Plant Life
 
 ---
+(Image by: Prudence Earl – [https://unsplash.com/@pru](https://unsplash.com/@pru "https://unsplash.com/@pru"))
+
 Let’s face it. We’ve been stuck inside for months now due to the Pandemic. Our favorite plant conservatories and garden green homes have closed for the public and we can literally feel ourselves wilting along with our plant friends. A great way to cure this cabin fever is by bringing the outside world into your home. The indoor gardening movement has _grown_ at a rapid rate before our eyes, which we can see in the form of [Instagram accounts dedicated specifically to plants.](https://www.instagram.com/botanicalsandbillie/) However, before you rush out and buy more plants than your water bill can handle, read these 6 common mistakes that new plant owners make.
 
 ## 1. Inconsistent Watering

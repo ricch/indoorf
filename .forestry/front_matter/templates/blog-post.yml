@@ -33,10 +33,6 @@ fields:
 - name: referenced_image
   type: boolean
   label: Referenced Image
-- name: tags
-  type: tag_list
-  default: []
-  label: Tags
 - name: splash_photographer
   type: field_group
   config: {}
@@ -55,6 +51,10 @@ fields:
   showOnly:
     field: referenced_image
     value: true
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 - name: categories
   type: list
   config:

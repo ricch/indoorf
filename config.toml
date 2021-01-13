@@ -9,3 +9,6 @@ pluralizelisttitles = false
     description = "Meta Description goes here."
     images = ["meta-image.jpg"]
     googleTagManagerID = "GTM-xxxxxx"
+    tiktok = "indoorfriends"
+    pinterest = "indoorfriends"
+    youtube = "indoorfriends"

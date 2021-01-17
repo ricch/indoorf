@@ -7,17 +7,18 @@ nav.navbar {
         min-height: 7rem;
     }
     a {
-        font-family: $is-family-code;
+        // font-family: $is-family-code;
         color: $black;
         text-decoration: underline;
     }
     .navbar-start {
         flex-grow: 1;
-        justify-content: center;
+        justify-content: flex-end;
         @media (max-width: 767px) {
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
             a {
                 font-size: 2.5rem;
             }

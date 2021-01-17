@@ -10,6 +10,15 @@ nav.navbar {
         color: $black;
         text-decoration: underline;
     }
+    .navbar-brand {
+        @media (max-width: 767px) {
+            justify-content: space-between;
+            align-items: center;
+            .navbar-burger {
+                margin-left: 0;
+            }
+        }
+    }
     .navbar-start {
         flex-grow: 1;
         justify-content: flex-end;

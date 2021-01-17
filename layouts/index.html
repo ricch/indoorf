@@ -3,13 +3,15 @@
     <div class="hero-body">
         <div class="container">
             {{ range where (where site.RegularPages "Section" "blog" ) ".Params.featured_blog" "=" true | first 1 }}
-            <div class="columns is-vcentered">
+            <div class="columns is-vcentered is-flex-direction-row-reverse has-background-light">
                 <div class="column is-5">
                     <img src="{{ index (.Params.images) 0  }}" alt="{{ .Title }}">
                 </div>
                 <div class="column">
                     {{ $readspeed := div .WordCount 225 }}
-                    <div class="blog-date is-italic has-text-grey-light">{{ .PublishDate.Format "Jan. 2, 2006" }} &nbsp;&bull; <span class="ml-1 has-text-black">{{ add 1 $readspeed }} min read</span></div>
+                    <div class="blog-date is-italic has-text-grey-light">{{ .PublishDate.Format "Jan. 2, 2006" }} 
+                        <!-- &nbsp;&bull; <span class="ml-1 has-text-black">{{ add 1 $readspeed }} min read</span> -->
+                    </div>
                     <h2 class="is-size-1">{{ .Title }}</h2>
                     <p class="mb-5">{{ .Summary }}</p>
                     <a href="{{ .Permalink }}" class="button is-outlined is-black">Read More →</a>

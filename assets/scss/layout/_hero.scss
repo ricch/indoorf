@@ -7,8 +7,10 @@
 
     &.is-featured {
         .hero-body {
-            padding-top: 0;
-            padding-bottom: 0;
+            @media (min-width: 768px) {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
         }
         h2 {
             line-height: 1.2;

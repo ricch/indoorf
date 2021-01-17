@@ -1,9 +1,10 @@
 $card-shadow: none;
 $card-radius: 0;
+$card-color: $navy;
 
 .card {
     h3 a {
-        color: $black;
+        color: $navy;
         font-family: $family-secondary;
         font-size: 2rem;
     }

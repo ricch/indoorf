@@ -1,0 +1,17 @@
+img[src$='#floatleft']
+{
+    @media (min-width: 769px) {
+        float:left;
+        width: 33%;
+        margin-right: 3rem;
+    }
+}
+
+img[src$='#floatright']
+{
+    @media (min-width: 769px) {
+        float:right;
+        width: 33%;
+        margin-left: 3rem;
+    }
+}

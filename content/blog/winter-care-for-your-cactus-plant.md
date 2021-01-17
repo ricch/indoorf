@@ -19,9 +19,11 @@ Succulents are known for their resilience, and they make great plant babies for 
 
 Most cactus parents see their succulents wither and die during colder months, which can be discouraging and frustrating. It might be a surprise to know that your cacti probably died due to too much attention rather than negligence. If you’ve experienced cactus death in the past, you know how unfriendly the winter can be on your little friends.
 
+![](/uploads/mat-reding-F0ehv4gqqwY-unsplash.jpg#floatright)
+
 ## Location: Give Your Cactus a Happy Home in Your Home
 
-The harshness of winter depends on where you live, but the first step for cactus care in any colder climate is to bring your succulents inside.
+The harshness of winter depends on where you live, but the first step for cactus care in any colder climate is to bring your succulents inside. 
 
 Then, you need to find the right place. Give them as much sun as possible by placing them near a south- or east-facing window. But beware. Putting your cacti too close to a window could expose them to chilly and unpleasant drafts.
 

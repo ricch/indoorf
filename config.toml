@@ -5,6 +5,12 @@ title = "Indoor Friends"
 sectionPagesMenu = "main"
 summaryLength = 15
 pluralizelisttitles = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [taxonomies]
     tag = "tags"
     category = "categories"

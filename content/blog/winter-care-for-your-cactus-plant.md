@@ -39,6 +39,8 @@ Cacti are especially prone to root rot, so letting their soil dry out between wa
 
 Root rot isn’t a nice look, so once the winter solstice hits around the end of December, start giving your cacti less water than usual.
 
+<a href="https://skillshare.eqcm.net/c/2589339/974612/4650" target="_top" id="974612"><img src="//a.impactradius-go.com/display-ad/4650-974612" border="0" alt="" width="728" height="90"/></a><img height="0" width="0" src="https://skillshare.eqcm.net/i/2589339/974612/4650" style="position:absolute;visibility:hidden;" border="0" />
+
 ## Fertilizer: Overfeeding is Like Overeating, Don’t Do It!
 
 During the winter months, your cactus is dormant. Think of it like a plant nap. It doesn’t need much water or much food. It’s recommended to hold off on feeding your cacti until winter is completely over.

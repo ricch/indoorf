@@ -22,3 +22,16 @@ pluralizelisttitles = false
     tiktok = "indoorfriends"
     pinterest = "indoorfriends"
     youtube = "indoorfriends"
+
+[related]
+  includeNewer = false
+  threshold = 80
+  toLower = false
+
+  [[related.indices]]
+    name = "categories"
+    weight = 100
+
+  [[related.indices]]
+    name = "date"
+    weight = 10

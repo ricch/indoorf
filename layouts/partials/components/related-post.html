@@ -1,7 +1,17 @@
 <div class="section">
     <div class="container">
-        <hr>
-        <h3 class="has-text-centered is-size-3">Related Posts</h3>
-
+        <hr class="mb-6">
+        <h3 class="has-text-centered is-size-3 mb-5">Related Posts</h3>
+        {{ $related := .Site.RegularPages.RelatedIndices . "categories" "date" | first 3 }}
+        {{ with $related }}
+        <div class="grid">
+            <div class="grid-sizer"></div>
+            {{ range . }}
+            <div class="grid-item">
+                {{ partial "components/blog-card.html" . }}
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
     </div>
 </div>

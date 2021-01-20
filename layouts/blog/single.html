@@ -8,7 +8,7 @@
             <p class="mb-5">{{ range .Param $taxo }}
                 {{ $categoryname := . }}
                 {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($categoryname | urlize)) }}
-                <a href="{{ .Permalink }}" class="mr-3">{{ $categoryname }}</a> / 
+                <a href="{{ .Permalink }}" class="mr-3">{{ $categoryname }}</a> > 
                 {{ end }}
                 {{ end }}<span class="is-family-serif is-italic ml-3">Updated {{ .PublishDate.Format "January 2, 2006" }}</span></p>
             <h1 class="title is-size-1">{{ .Title }}</h1>

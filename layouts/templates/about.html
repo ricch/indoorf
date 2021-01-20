@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="section">
+    <div class="container">
+        <div class="content">
+            <div class="columns">
+                <div class="column is-7">
+                    {{.Content}}
+                    <hr>
+                    <h2>Follow my journey:</h2>
+                    <p>Instagram <a href="https://www.instagram.com/kevinmoran/" target="_blank">@kevinmoran</a> / TikTok <a href="https://www.tiktok.com/@indoorfriends" target="_blank">@indoorfriends</a></p>
+                </div>
+                <div class="column is-offset-1">
+                    <img src="/uploads/IF_about1.png" alt="">
+                    <img src="/uploads/IF_about2.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+{{ partial "components/subscribe.html" . }}
+{{ end }}

@@ -2,11 +2,11 @@
 title: "About"
 date: 2020-12-18T21:57:20-05:00
 description: ""
+type: templates
+layout: about
 ---
 
 # Ramblings of a dude with too many plants ...
-
-![Photo of Kevin Moran](/uploads/IF_about.png)
 
 Hello there! My name is Kevin Moran, I’m a communication designer, illustrator, teacher, dad (the terrible two’s on top of it), and indoor gardening novice turned expert from Toronto, Canada. As a freelance artist, I’ve spent many long days and late nights indoors staring at my computer while trading attention between tasks of family life and job opportunities. 
 

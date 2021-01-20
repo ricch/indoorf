@@ -1,6 +1,6 @@
 {{- if isset .Site.Taxonomies "categories" }}
 {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
-<div class="tabs is-centered cat-listing">
+<div class="is-centered categories has-text-centered">
     <ul>
         {{- range $name, $items := .Site.Taxonomies.categories }}
         <li><a href="{{ "categories/" | relLangURL }}{{ $name | urlize | lower }}" class="is-capitalized">{{ $name | title | humanize }}</a></li>

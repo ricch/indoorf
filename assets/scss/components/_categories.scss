@@ -1,0 +1,19 @@
+.categories {
+    ul {
+        margin: 0;
+        padding: 0;
+        li {
+            display: inline;
+            &::after {
+                content: '/';
+                margin-left: .5rem;
+                margin-right: .5rem;
+            }
+            &:last-child {
+                &::after {
+                    content: '';
+                }
+            }
+        }
+    }
+}

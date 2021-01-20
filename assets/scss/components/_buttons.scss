@@ -9,4 +9,14 @@ $control-radius: 0;
     &:hover {
         background-color: darken($teal,15%);
     }
+    &.is-black {
+        &:hover {
+            background-color: $primary !important;
+        }
+    }
+    @media (max-width: 768px) {
+        width: 100%;
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
 }

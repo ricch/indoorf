@@ -8,13 +8,21 @@
                     <img src="{{ index (.Params.images) 0  }}" alt="{{ .Title }}">
                 </div>
                 <div class="column">
+                    {{ $taxo := "categories" }}
+                    {{ range .Param $taxo }}
+                    {{ $categoryname := . }}
+                    {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($categoryname | urlize)) }}
+                    <a href="{{ .Permalink }}" class="mr-1">{{ $categoryname }}</a> > 
+                    {{ end }}
+                    {{ end }}
                     {{ $readspeed := div .WordCount 225 }}
-                    <div class="blog-date is-italic has-text-grey-light">{{ .PublishDate.Format "Jan. 2, 2006" }} 
+                    <span class="blog-date is-italic ml-1">Updated {{ .PublishDate.Format "January 2, 2006" }} 
                         <!-- &nbsp;&bull; <span class="ml-1 has-text-black">{{ add 1 $readspeed }} min read</span> -->
-                    </div>
-                    <h2 class="is-size-1">{{ .Title }}</h2>
+                    </span>
+                    <h2 class="is-size-1 mb-4 mt-2">{{ .Title }}</h2>
                     <p class="mb-5">{{ .Summary }}</p>
                     <a href="{{ .Permalink }}" class="button is-black">Read More →</a>
+                    {{ if .Params.referenced_image }}<p class="is-italic is-size-7 mt-6 has-text-right">Image by: <a class="has-text-black has-text-underline" href="{{ .Params.splash_photographer.url }}">{{ .Params.splash_photographer.name }}</a></p>{{ end }}
                 </div>
             </div>
             {{ end }}

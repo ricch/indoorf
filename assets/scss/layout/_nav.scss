@@ -8,7 +8,9 @@ nav.navbar {
     }
     a {
         color: $black;
-        text-decoration: underline;
+        &:hover {
+            text-decoration: underline;
+        }
     }
     .navbar-brand {
         @media (max-width: 767px) {
